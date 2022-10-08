@@ -26,10 +26,10 @@ import * as config from 'lib/config'
 import { Loading } from './Loading'
 import { Page404 } from './Page404'
 import { PageHead } from './PageHead'
-import { PageAside } from './PageAside'
-import { Footer } from './Footer'
+//import { PageAside } from './PageAside'
+//import { Footer } from './Footer'
 import { NotionPageHeader } from './NotionPageHeader'
-import { GitHubShareButton } from './GitHubShareButton'
+//import { GitHubShareButton } from './GitHubShareButton'
 
 import styles from './styles.module.css'
 
