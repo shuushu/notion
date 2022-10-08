@@ -198,14 +198,14 @@ export const NotionPage: React.FC<types.PageProps> = ({
   const showTableOfContents = !!isBlogPost
   const minTableOfContentsItems = 3
 
-  const pageAside = React.useMemo(
+  /*const pageAside = React.useMemo(
     () => (
       <PageAside block={block} recordMap={recordMap} isBlogPost={isBlogPost} />
     ),
     [block, recordMap, isBlogPost]
-  )
+  )*/
 
-  const footer = React.useMemo(() => <Footer />, [])
+  //const footer = React.useMemo(() => <Footer />, [])
 
   if (router.isFallback) {
     return <Loading />
@@ -282,7 +282,7 @@ export const NotionPage: React.FC<types.PageProps> = ({
         mapPageUrl={siteMapPageUrl}
         mapImageUrl={mapImageUrl}
         searchNotion={config.isSearchEnabled ? searchNotion : null}
-        // pageAside={pageAside}
+        //pageAside={pageAside}
         //footer={footer}
       />
 
